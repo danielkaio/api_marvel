@@ -1,0 +1,22 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielkaio/api_marvel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielkaio/api_marvel/issues"
+  },
+  "homepage": "https://github.com/danielkaio/api_marvel#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}
