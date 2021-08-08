@@ -18,19 +18,34 @@ fetch(`http://gateway.marvel.com/v1/public/characters?ts=${temp}&apikey=${public
         let texto = element.name
 
 
-        let personagem = (caminho) => {
-            let img = document.createElement('img');
-            let = div = document.querySelector('#hero').appendChild(img)
+        let personagem = (texto, caminho) => {
+
+
+            let div = document.querySelector('#hero')
+            let img = document.createElement('img')
+            div.appendChild(img)
+            img.setAttribute('src', caminho)
 
 
 
+            let p = document.createElement('p')
+            div.appendChild(p)
+            p.innerHTML = texto
 
-            .setAttribute('src', caminho)
+
         }
+        personagem(texto, caminho)
 
-        personagem(caminho)
 
-    });
+
+
+
+    })
+
+
+
+
+
 })
 
 

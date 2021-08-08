@@ -12,6 +12,10 @@ body {
 
 img {
     width: 200px;
-    height: 200px;
-    border: 10px whitesmoke solid;
+    height: 300px;
+}
+
+#hero,
+p {
+    text-align: center;
 }
