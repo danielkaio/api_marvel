@@ -4,6 +4,7 @@ body {
 }
 
 #hero {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,12 +12,12 @@ body {
 
 img {
     width: 300px;
-    border-radius: 50%;
+    border-radius: 30%;
     border: 10px black solid;
 }
 
 .text {
-    color: whitesmoke;
+    color: yellow;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px navy;
     font-size: 2em;
 }
